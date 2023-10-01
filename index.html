@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="container-left">
+                <img id="imgShow" class="chair1" src="./images/chair1.png" alt="">
+            </div>
+            <div class="container-right">
+                <div>
+                    <h4 class="titleUp">Modern Chair</h4>
+                    <h2 class="mainTitle">Telford Longue</h2>
+                </div>
+                
+                <div class="price">
+                    <p>$254</p>
+                    <p class="cut">$530</p>
+                </div>
+                <div class="desc">
+                    <div class="desc-heading">
+                        <h4 class="desc-head active1" id="about">Description</h4>
+                        <h4 class="desc-head" id="dim" >Details</h4>
+                    </div>
+
+                    <div class="desc-text" id="div1" >
+                        <div class="sectionInline">
+							<p><span>80</span>cm<br />Length</p>
+						</div>
+						<div class="sectionInline">
+							<p><span>65</span>cm<br />Width</p>
+						</div>
+						<div class="sectionInline">
+							<p><span>90</span>cm<br />Height</p>
+						</div>
+						<div class="sectionInline">
+							<p><span>17.6</span>lbs<br />Weight</p>
+						</div>
+                    </div>
+
+                    <div class="desc-text" id="div2">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati doloremque impedit accusamus fugit ipsa explicabo reiciendis ipsam perferendis non vel!
+                        </p>
+
+                       
+                    </div>
+                    
+                </div>
+                <div class="color-section">
+                    <h4>Choose Color :</h4>
+                    <div class="colors">
+                        <img id="color1" onclick="colorCh('#F08080')" class="bdr active"   src="./images/color1.jpg" alt="">
+                        <img id="color2" onclick="colorCh('#28282B')" class="bdr" src="./images/color2.jpg" alt="">
+                        <img id="color3" onclick="colorCh('#49637A')" class="bdr" src="./images/color3.jpg" alt="">
+                        <img id="color4"  onclick="colorCh('#678CA7')" class="bdr" src="./images/color4.jpg" alt="">
+                        <img id="color5" onclick="colorCh('#81746C')" class="bdr" src="./images/color5.jpg" alt="">
+                        <img id="color6" onclick="colorCh('#626665')" class="bdr"  src="./images/color6.jpg" alt="">
+
+                    </div>
+                    
+                </div>
+                <button id="changeColorButton"><img src="./images/favicon.ico" alt=""> Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
